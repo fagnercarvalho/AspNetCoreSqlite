@@ -19,7 +19,7 @@ namespace AspNetCoreSqlite
             var customers = new List<Customer>
             {
                 new Customer { Id = 1, Name = "Test Customer 1" },
-                new Customer { Id = 2, Name = "Test Customer 2"}
+                new Customer { Id = 2, Name = "Test Customer 2" }
             };
 
             modelBuilder.Entity<Customer>().HasData(customers);
